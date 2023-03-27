@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body {
+  font-family: "游ゴシック Light", sans-serif;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+#setumei {
+  border: 1px dashed blue;
+  padding: 15px;
+  margin: 10px;
+}
+
+input {
+  height: 30px;
+  width: 50px;
+  margin: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  text-align: center;
+}
+
+h1, h2 {
+    font-weight: lighter;
+}

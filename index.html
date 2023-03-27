@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <script
+      type="text/javascript"
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./base.css" />
+    <title>内積・外積計算セット</title>
+  </head>
+  <body>
+    <h1>内積外積計算セット</h1>
+    <div id="setumei">
+      <h2>ベクトルの内積・外積の計算方法（3次元）</h2>
+      <p>
+        \(\overrightarrow{a} = \begin{pmatrix}a_1 \\ a_2 \\ a_3 \end{pmatrix}
+        \), \(\overrightarrow{b} = \begin{pmatrix}b_1 \\ b_2 \\ b_3
+        \end{pmatrix} \)とすると、
+      </p>
+      <p>
+        ベクトル内積 \(\overrightarrow{a}\cdot\overrightarrow{b} = a_1b_1 +
+        a_2b_2 + a_3b_3\),
+      </p>
+      <p>
+        ベクトル外積 \(\overrightarrow{a}\times\overrightarrow{b} =
+        \begin{pmatrix}a_2b_3 - a_3b_2 \\ a_3b_1- a_1b_3 \\ a_1b_2-a_2b_1
+        \end{pmatrix}\) と表される。
+      </p>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <small>
+      Copyright(c) 2023 @東京大学駒場キャンパス ランゲルハンス棟 All Rights
+      Reserved.
+    </small>
+  </body>
+</html>
